@@ -4,9 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "preinstall": "npx npm-force-resolutions",
     "dev": "vite",
-    "build": "vite build --force",
+    "build": "vite build ",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -17,7 +16,6 @@
     "react-countup": "^6.5.3",
     "react-dom": "^18.3.1",
     "react-scroll": "^1.9.0",
-    "react-slidedown": "^2.4.7"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
